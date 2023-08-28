@@ -1,0 +1,8 @@
+FizzBuzz
+Para un número (i=0, i<=100, i++)
+Si
+ i%3==0 (si i es divisible entre 3 ) devolver Fizz
+Si no, si i%5==0 (si i es divisible entre 5) devolver Buzz
+Si no, si i%5==0 y i%3==0 (si i es divisible entre ambos) devolver FizzBuzz
+Si no, devolver i
+Final

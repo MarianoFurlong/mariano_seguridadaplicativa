@@ -1,5 +1,5 @@
 Tablas de Multiplicar
 Imprimir "Ingresa un número del 1 al 10"
-Para n en el rango (0,11), i==1, i++
+Para num en el rango (0,11), i==1, i++
 Imprimir(i,*,num,=,i*num)
 

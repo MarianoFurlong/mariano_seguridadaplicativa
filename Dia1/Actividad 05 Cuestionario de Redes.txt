@@ -1,0 +1,35 @@
+Actividad 05: Cuestionario de Redes
+1.-¿Qué es una red?
+	Un sistema que permite interconectar y/o compartir información entre distintos dispositivos, puediendo ser 	de manera local o remota.
+2.-¿Qué es el modelo TCP/IP?
+	Un protocolo de red en el que se pueden definir los puertos de conexión basados en la dirección ip
+3.-¿Qué es una ip?
+	La dirección específica de un puerto y/o dispositivo, a través de la cual es posible identificarlo
+4.-¿Qué es el protocolo TCP?
+	Un protocolo de red que permite el intercambio seguro de información entre dos o más dispositivos
+5.-Dentro del protocolo TCP, ¿Qué es el protocolo HTTP?
+	Un protocolo que permite un intercambio más seguro de información al viajar de manera plana, pues impide 	ocultar texto
+6.- Puerto de protocolo HTTP
+	80
+7.- Puerto de protocolo HTTPS
+	443
+8.- Diferencia entre HTTP y HTTPS
+	En HTTPS la información se cifra para mejorar la seguridad, mientras que en HTTP viaja de manera plana
+9.- ¿Qué significa el modelo cliente-servidor?
+	Que un dispositivo actúa como eje central de la información al actuar como servidor, y envía y recibe 	información de distintos "clientes" a la vez
+10.- ¿Qué es una petición (request)?
+	Una solicitud de interacción (enviar o solicitar información) a un servidor
+11.- ¿Qué es una respuesta (response)?
+	La respuesta que brinda un servidor a una solicitud de interacción o solicitud de información
+12.- Secciones de una petición
+	GET, POST
+13.- Secciones de una respuesta
+	POST, PUT
+14.- El código de respuesta 404 y 500, ¿a qué se refiere?
+	A que los datos solicitados no fueron encontrados. Error interno
+15.- Lenguajes de programación del lado del servidor (Back End).
+	Python, HTTP, HTTPS
+16.- Lenguajes d eprogramación del lado del clinte (Front End).
+	HTTP, HTTPS, JAVA, PYTHON
+17.- Qué es Burp Suite?
+	Una herramienta tecnológica que permite hacer peticiones y recibir respuestas de un servidor, permitiendo 	así el intercambio de información a un nivel superior, burlando muchas veces la seguridad del mismo.

@@ -1,0 +1,1 @@
+sudo useradd $1 -p olakease -m -s /bin/zsh -c "act2"; 

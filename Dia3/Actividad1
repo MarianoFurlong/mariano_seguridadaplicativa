@@ -1,0 +1,6 @@
+#Crear una sentencia condicional que permita detectar si es un palíndromo
+string = "ana"
+if (string[::] == string[::-1]):
+    print ("Es palíndromo")
+else:
+    print ("No es palíndromo")

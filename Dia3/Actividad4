@@ -1,0 +1,42 @@
+Calificaciones = {
+    "Juan":8,
+    "Giselle":9,
+    "Damian":5,
+    "Ricardo":6,
+    "Yaotzin":6,
+    "Erick":7,
+    "Mario":8,
+    "Edgar":9,
+    "Fernanda":5,
+    "Daniel":6,
+    "Jesus":7,
+    "Damian":8,
+    "Yemahina":6,
+    "Eduardo":9,
+    "Bryan":9,
+    "Mariano":10,
+    "Alberto":8
+}
+Calificaciones["Alberto"]
+
+def promedio():
+    res = 0
+    s=0
+    for calif in Calificaciones:
+        res = (Calificaciones[calif]) + res
+        s = res / (len(Calificaciones) - 1)
+    print(s)
+       
+def alto():
+    for calif in Calificaciones:
+        if (Calificaciones[calif] == 10):
+            print( calif )
+    
+def bajo():
+    for calif in Calificaciones:
+        if (Calificaciones[calif] == 5):
+            print( calif )
+
+promedio()
+alto()
+bajo()

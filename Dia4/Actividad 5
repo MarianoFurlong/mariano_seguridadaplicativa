@@ -1,0 +1,5 @@
+Proxy: Captura peticiones.
+Intruder: Sirve para enviar peticiones y hacer ataques de fuerza bruta.
+Repeater: Repite la petición y emula la respuesta del servidor de manera rápida, sin tener que actualizar el navegador.
+Target: Guarda todas las peticiones incluso si tenemos el intruder desactivado, mapeando toda la aplicación sin necesidad de entrar a todo.
+New Scan: Encuentra vulnerabilidades de manera automática

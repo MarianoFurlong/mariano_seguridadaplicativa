@@ -1,0 +1,95 @@
+Lógica de programación:
+1.-
+def PrimNum():
+    num = int(input("Ingresa un número: "))
+    rango = set(range(2, num+1))
+    while rango:
+        primo = min(rango)
+        if num == primo:
+            print(num, "es primo")
+            break
+        elif num % primo == 0:
+            print(num, "no es primo")
+            break
+        rango -= set(range(primo, num+1, primo))
+    else:
+        print(num, "no es primo")
+    
+PrimNum()
+ 
+
+2.-
+
+print("Las tablas de multiplicar básicas son las siguientes :D")
+for cont in range (1,11):
+    print("Tabla del:", cont)
+    for cont2 in range (1,11):
+        print(cont, "x", cont2, "=",cont*cont2)
+        
+
+
+3.-
+
+rango = set(range(2, 101))
+print("Los números primos hasta el 100 son:")
+while rango:
+  primo = min(rango)
+  print(primo)
+  rango -= set(range(primo, 101, primo))
+
+4.-
+
+
+calificaciones = {
+"Alo":"7", 
+"Najarro":"8", 
+"Meraz":"9", 
+"Esperanza":"7", 
+"Puebla":"7", 
+"Arco":"9", 
+"Brazil":"8", 
+"Sotomayor":"6", 
+"Ortis":"5", 
+"Arcos":"7", 
+"Borja":"5", 
+"Guerrero":"5", 
+"Bermejo":"6", 
+"Garcia":"7", 
+"Ortiz":"8", 
+"Mar":"9", 
+"Monica":"7", 
+"Verdugo":"7", 
+"Rossel":"9", 
+"Lagunas":"10", 
+"Rosado":"10", 
+"Pulido":"6", 
+"Alvarado":"7", 
+"Vea":"8", 
+"Lozano":"9", 
+"Godinez":"6", 
+"Herran":"5", 
+"Rengifo":"6", 
+"Brizuela":"7", 
+"Berlanga":"1"
+}
+
+suma = 0
+
+for calif in calificaciones:
+    suma = suma + int(calificaciones[calif])
+
+promedio = suma / len(calificaciones)
+
+print("Este es el promedio del grupo: ", promedio)
+
+print("Estos son alumnos debajo del promedio: ")
+for i in calificaciones:
+    if(int(calificaciones[i]) < promedio):
+        print(i)
+        
+print("Estos son alumnos arriba del promedio: ")
+for i in calificaciones:
+    if(int(calificaciones[i]) > promedio):
+        print(i)
+        
+
